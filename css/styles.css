@@ -231,3 +231,90 @@ body {
     border: none;
     cursor: pointer;
 }
+
+/* media screen */
+
+@media screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        width: 414px;
+    }
+
+    .header-main {
+        margin: 0;
+        width: 382px;
+        height: 441px;
+        border-radius: 0px, 0px, 20px, 20px;
+        background-color: #FFFFFF;
+    }
+
+    .main-monito-logo {
+        width: 92px;
+        height: 32px;
+        justify-content: center;
+        gap: auto;
+        display: flex;
+        position: absolute;
+        left: 151px;
+        flex: auto;
+        align-items: center;
+        top: 22px;
+    }
+
+    .nav-main {
+        padding: 2px 14px 0px 10px;
+        height: 57px;
+        gap: 0;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-details {
+        display: none;
+    }
+
+    .checkbtn {
+        display: block;
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .join-community a {
+        display: none;
+    }
+
+    .search-space {
+        display: none;
+    }
+
+    .search-icon {
+        background-color: #FFFFFF;
+        color: #00171F;
+        width: 23px;
+        height: 23px;
+        position: absolute;
+        z-index: 1;
+        left: 40px;
+        top: -10px;
+        font-size: 28px;   
+    }
+
+    .search-container {
+        background-color: none  ;
+        width: 0;
+        height: 0;
+    }
+
+    .vnd-icon {
+        display: none;
+    }
+
+    .home-arrow {
+        position: absolute;
+        top: 140px;
+        left: -116px;
+    }
+
+
+}
