@@ -294,11 +294,133 @@ body {
     cursor: pointer;
     font-family: SVN-Gilroy;
     font-size: 14px;
-    font-style: normal;
     font-weight: 500;
     line-height: 20px;
     color: var(--Neutral-Color-60, #667479);
+}
+
+/* dog container section */
+
+.dog-container {
+    margin-right: 130px;
+    margin-left: 130px;
+}
+
+.male, .female {
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--Neutral-Color-100, #00171F);
+    position: relative;
+    bottom: 2px;
+    left: 4px;
+}
+
+.gender {
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--Neutral-Color-100, #00171F);
+    width: 115px;
     
+}
+
+.red {
+    position: relative;
+    left: 6px;
+    padding-right: 14px;
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--Neutral-Color-100, #00171F);
+    
+}
+
+.color {
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--Neutral-Color-100, #00171F);
+    width: 115px;
+}
+
+.prices {
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--Neutral-Color-100, #00171F);
+    width: 115px;
+}
+
+.min-box {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: -20px;
+}
+
+.min {
+    padding: 10px;
+    border-bottom: 1px solid var(--Neutral-Color-10, #EBEEEF);
+    color: var(--Neutral-Color-80, #242B33);
+    width: 87px;
+    height: 14px;  
+    position: relative; 
+    left: 0px;
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.dubble-arrow {
+    position: relative;
+    left: 40px;
+    bottom: -3px;
+}
+
+.max {
+    padding: 10px;
+    border-bottom: 1px solid var(--Neutral-Color-10, #EBEEEF);
+    color: var(--Neutral-Color-80, #242B33);
+    width: 87px;
+    height: 14px;
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.small {
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    position: relative;
+    bottom: 3px;
+    left: 10px;
+}
+
+.breed {
+    font-family: SVN-Gilroy;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--Neutral-Color-100, #00171F);
+    width: 115px;
+}
+
+.breed-box {
+    position: relative;
+    bottom: 29px;
 }
 
 /* media screen */
