@@ -244,6 +244,63 @@ body {
     display: none;
 }
 
+.filter-container {
+    display: flex;
+}
+
+.filter-header {
+    position: absolute;
+    font-family: SVN-Gilroy;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459;
+    font-weight: 700;
+    top: 400px;
+    
+}
+
+.filter-name {
+    position: absolute;
+    font-family: SVN-Gilroy;
+    font-size: 24px;
+    line-height: 36px;
+    color: #003459;
+    font-weight: 700;
+    top: 411px;
+    left: 330px;
+}
+
+.filter-sub-name {
+    position: absolute;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+    font-family: SVN-Gilroy;
+    top: 425px;
+    left: 456px;
+}
+
+.popular-btn {
+    display: inline-flex;
+    padding: 6px 10px 4px 20px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 20px;
+    border: 1px solid var(--Neutral-Color-20, #CCD1D2); 
+    position: absolute;
+    top: 430px;
+    right: 0px ;
+    cursor: pointer;
+    font-family: SVN-Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--Neutral-Color-60, #667479);
+    
+}
+
 /* media screen */
 
 @media screen and (max-width: 768px) {
