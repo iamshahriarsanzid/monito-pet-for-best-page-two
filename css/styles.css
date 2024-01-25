@@ -532,6 +532,10 @@ body {
     padding-bottom: 20px    ;
 }
 
+.filter-btn {
+    display: none;
+}
+
 
 
 /* media screen */
@@ -693,6 +697,130 @@ body {
         left: 296px;
     }
 
-    
+    .dog-container {
+        display: none;
+    }
+
+    .popular-btn {
+        display: flex;
+        width: 172px;
+        padding: 10px 12px 8px 20px;
+        align-items: center;
+        gap: 4px;
+        border-radius: 20px;
+        border: 1px solid var(--Neutral-Color-20, #CCD1D2);
+        font-size: 14px;
+        line-height: 20px;
+        position: absolute;
+        top: 470px;
+        left: 0px;
+    }
+
+    .filter-name {
+        font-family: SVN-Gilroy;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+        position: absolute;
+        top: 526px;
+        width: 114px;
+        left: 0;
+    }
+
+    .filter-sub-name {
+        position: absolute;
+        top: 541px;
+        left: 133px;
+    }
+
+    .filter-btn {
+        display: block;
+        position: absolute;
+        font-family: SVN-Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+        top: 476px;
+        right: 0px;
+    }
+
+    .filter-btn img {
+        position: relative;
+        top: 2px;
+    }
+
+    .filter-btn-main {
+        position: relative;
+        bottom: 5px;
+        left: 2px;
+        font-size: 16px;
+        
+    }
+
+    .filter-header {
+        display: none;
+    }
+
+    .filter-btn button{
+        border: none;
+        cursor: pointer;
+        background-color: #FDFDFD;
+        color: var(--Primary-Color-Dark-Blue-80, #002A48);
+    }
+
+    .dog-box-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        position: absolute;
+        left: -443px;
+        top: 724px;
+    }
+
+    .dog-box {
+        width: 169px;
+        height: 317px;
+    }
+
+    .dog-img {
+        width: 169px;
+        height: 169px;
+        position: relative;
+        top: 0;
+    }
+
+    .dog-code {
+        width: 170px;
+        font-size: 14px;
+    }
+
+    .gender-parent {
+        display: block;
+    }
+
+    .dot {
+        display: none;
+    }
+
+    .gender-one {
+        position: relative;
+        left: 0;
+        top: 14px;
+    }
+
+    .gender-two {
+        position: relative;
+        left: 8px;
+        top: -8px;
+    }
+
+    .price {
+        width: 162px;
+        position: relative;
+        top: 31px;
+    }
+
+
 
 }
