@@ -536,6 +536,12 @@ body {
     display: none;
 }
 
+.next-page {
+    position: absolute;
+    top: 2380px;
+    left: 253px;
+}
+
 
 
 /* media screen */
