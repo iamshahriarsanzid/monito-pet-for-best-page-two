@@ -643,7 +643,7 @@ body {
     display: flex;
     margin-left: 92px;
     align-items: center;
-    gap: 350px;
+    gap: 414px;
     margin-left: 92px;
     margin-top: 57px;
 }
@@ -692,72 +692,72 @@ hr{
         width: 414px;
     }
 
-    .header-main {
-        width: 414px;
-    }
-    
-
-    .main-monito-logo {
-        width: 92px;
-        height: 32px;
-        justify-content: center;
-        gap: auto;
-        display: flex;
-        position: absolute;
-        left: 151px;
-        flex: auto;
-        align-items: center;
-        top: 22px;
-    }
-
-    .nav-main {
-        padding: 2px 14px 0px 10px;
-        height: 57px;
-        gap: 0;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .nav-details {
-        display: none;
-    }
-
-    .checkbtn {
-        display: block;
-        display: flex;
-        align-items: center;
+        .header-main {
+            width: 414px;
+        }
         
-    }
 
-    .join-community a {
-        display: none;
-    }
+        .main-monito-logo {
+            width: 92px;
+            height: 32px;
+            justify-content: center;
+            gap: auto;
+            display: flex;
+            position: absolute;
+            left: 151px;
+            flex: auto;
+            align-items: center;
+            top: 22px;
+        }
 
-    .search-space {
-        display: none;
-    }
+        .nav-main {
+            padding: 2px 14px 0px 10px;
+            height: 57px;
+            gap: 0;
+            justify-content: space-between;
+            align-items: center;
+        }
 
-    .search-icon {
-        background-color: #FFFFFF;
-        color: #00171F;
-        width: 23px;
-        height: 23px;
-        position: absolute;
-        z-index: 1;
-        left: 40px;
-        top: -10px;
-        font-size: 28px;   
-    }
+        .nav-details {
+            display: none;
+        }
 
-    .search-container {
-        background-color: none  ;
-        width: 0;
-        height: 0;
-    }
+        .checkbtn {
+            display: block;
+            display: flex;
+            align-items: center;
+            
+        }
 
-    .vnd-icon {
-        display: none;
-    }
+        .join-community a {
+            display: none;
+        }
+
+        .search-space {
+            display: none;
+        }
+
+        .search-icon {
+            background-color: #FFFFFF;
+            color: #00171F;
+            width: 23px;
+            height: 23px;
+            position: absolute;
+            z-index: 1;
+            left: 40px;
+            top: -10px;
+            font-size: 28px;   
+        }
+
+        .search-container {
+            background-color: none  ;
+            width: 0;
+            height: 0;
+        }
+
+        .vnd-icon {
+            display: none;
+        }
 
     .home-arrow {
         position: absolute;
