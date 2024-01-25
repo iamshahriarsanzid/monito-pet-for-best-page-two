@@ -967,6 +967,109 @@ hr{
         top: 31px;
     }
 
+    .next-page {
+        position: absolute;
+        top: 3063px;
+        left: 13px;
+    }
 
+    .register-now {
+        width: 414px;
+        height: 575px;
+        border-radius: 20px 20px 0px 0px;
+        background-color: #FCEED5;
+        position: absolute;
+        top: 3921px;
+    }
+
+    .register-box {
+        width: 318px;
+        height: 207px;
+        position: absolute;
+        margin-left: 16px;
+        border-radius: 16px;
+        gap: 16px;
+        top: -18px;
+    }
+
+    .register-title {
+        position: absolute;
+        left: -20px;
+        top: -8px;
+        font-size: 20px;
+    }
+
+    .gmail-subscribe-box {
+        position: absolute;
+        width: 350px;
+        height: 142px;
+    }
+
+    .gmail-box {
+        position: absolute;
+        width: 330px;
+        height: 142px;
+        left: -18px;
+        top: 60px;
+        gap: 10px;
+    }
+
+    .subscribe {
+        width: 330px;
+        height: 57px;
+        position: absolute;
+        left: 13px;
+        top: 91px;
+    }
+
+    .gmail-box input {
+        width: 270px;
+        height: 32px;
+    }
+
+    .contact-us {
+        display: block;
+        position: absolute;
+        top: 580px;
+    }
+
+    hr {
+        position: relative;
+        top: 412px;
+        z-index: 1;
+        left: -4px;
+    }
+
+    .contact-home {
+        position: absolute;
+        top: -43px;
+        left: -55px;
+        gap: 40px;
+    }
+
+    .social-icon {
+        position: absolute;
+        top: 9px;
+    }
+
+    .privacy-policy {
+        display: block;
+        position: absolute;
+        top: 336px;
+        left: 63px; 
+    }
+
+    .terms {
+        position: absolute;
+        top: 116px;
+        left: -50px;
+    }
+
+    .last-title {
+        position: relative;
+        top: 136px;
+        left: -24px;
+        font-size: 10px;
+    }
 
 }
