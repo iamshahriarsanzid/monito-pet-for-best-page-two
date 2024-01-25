@@ -543,6 +543,146 @@ body {
 }
 
 
+.register-now {
+    width: 1440px;
+    height: 500px;
+    border-radius: 40px 40px 0px 0px;
+    background-color: #FCEED5;
+    margin-top: -47px;
+    position: absolute;
+    top: 3180px;
+}
+
+.register-box {
+    background-color: #003459;
+    width: 1180px;
+    height: 100px;
+    border-radius: 16px;
+    padding: 32px;
+    margin: 80px 130px 224px 92px;
+    position: relative;
+    display: flex;
+}
+
+.register-title {
+    padding-left: 32px;
+    width: 389px;
+    height: 72px;
+    font-family: SVN-Gilroy;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FDFDFD;
+    padding-right: 20px;
+}
+
+.gmail-box {
+    width: 725px;
+    height: 72px;
+    border-radius: 14px;
+    padding: 12px;
+    gap: 12px;
+    background-color: #FFFFFF;
+}
+
+.gmail-box input {
+    width: 480px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 14px 28px 10px 28px;
+    border-color: #99A2A5;
+    outline: none;
+}
+
+.subscribe {
+    width: 173px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #003459;
+    gap: 10px;
+    color: #FDFDFD;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 28px 10px 30px;
+    cursor: pointer;
+
+}
+
+.contact-us {
+    display: flex;
+    margin-left: 92px;
+    margin-right: 92px;
+    gap: 624px;
+    margin-top: -170px;
+}
+
+.contact-home {
+    display: flex;
+    gap: 60px;
+}
+
+.contact-home a {
+    text-decoration: none;
+    width: 71px;
+    height: 24px;
+    font-family: SVN-Gilroy;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #00171F;
+}
+
+.social-icon {
+    display: flex;
+    gap: 40px;
+}
+
+.privacy-policy {
+    display: flex;
+    margin-left: 92px;
+    align-items: center;
+    gap: 350px;
+    margin-left: 92px;
+    margin-top: 57px;
+}
+
+.last-title {
+    width: 217px;
+    height: 20px;
+    font-family: SVN-Gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+}
+
+.terms {
+    display: flex;
+    width: 227px;
+    height: 20px;
+    gap: 15px;
+}
+
+.terms a{
+    text-decoration: none;
+    font-family: SVN-Gilroy;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667479;
+}
+
+hr{
+    margin-left: 92px;
+    margin-right: 92px;
+    margin-top: 60px;
+    color: #CCD1D2;
+}
+
+
+
 
 /* media screen */
 
